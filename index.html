@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zombie Hunter</title>
+</head>
+
+<body>
+    <div id="midcontent">
+        <label style="font-size:42px;color:#FF0;-webkit-text-stroke: 1px black;">Choose Player</label>
+        <br>
+        <img id="im1" src="P1.png" onclick="playerOneChosen()">
+        <img id="im2" src="P2.png" onclick="playerTwoChosen()">
+        <br>
+        <li id="li_6">
+            <label style="font-size:42px;margin-left:-30px;color:#FF0;-webkit-text-stroke: 1px black;">Choose Level</label>
+            <div>
+                <select style="font-size: 32px" class="element select medium" id="element_6" name="element_6">
+                    <option value="1" selected="selected">Level 1</option>
+                    <option value="2">Level 2</option>
+                    <option value="3">Level 3</option>
+                    <option value="4">Level 4</option>
+                </select>
+            </div>
+            <label style="color:red">*You Level up after killing 50 Zombies</label>
+        </li>
+    </div>
+    <div id="blacklayer">
+        <div id="gamemakers">
+            <p>mohamed elsayed ahmed <br>hassan ahmed elsaid abd elaziz
+                <br>ramadan sayed eid sayed<br>ragab mostafa abdo ahmed</p>
+        </div>
+    </div>
+    <div id="footerleft">
+        <a> <img id="credits" src="credits.png" alt=""></a>
+        <a> <img id="controllers" src="controllers.png" alt=""></a>
+    </div>
+    <div id="footerright">
+        <a> <img id="playnow" onclick="clickFunction()" onmouseover="hoverFunction()" src="playnow.png" alt=""></a>
+    </div>
+    <a id="close"><img src="close.png" alt=""></a>
+    <img id="zombie1" src="export_move.gif" alt="">
+    <img id="zombie2" src="export_move2.gif" alt="">
+    <div id="popupcontainer">
+        <img id="popup" src="popup.png" alt="">
+    </div>
+    <script src="ZombieHunter/soundhome.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
